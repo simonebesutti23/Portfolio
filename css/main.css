@@ -1,0 +1,56 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 80%;
+}
+
+/*NAVBAR*/
+.navbar{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#logo{
+    font-family: 'Staatliches', cursive;
+}
+
+
+/*SECTION MAIN*/
+#section-main{
+    margin-top: 100px;
+}
+
+#main-title{
+    font-weight: 300;
+}
+
+#hr{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+body{
+    height: 10000px;
+}

@@ -29,7 +29,7 @@
     margin-top: 100px;
 }
 
-#main-title{
+.main-title{
     font-weight: 300;
 }
 
@@ -49,6 +49,41 @@
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+/*Section Contact*/
+#section-contact{
+    margin-top: 50px;
+}
+
+.col-right-contact{
+    text-align: right;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.input{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: right;
+}
+
+.input-space{
+    margin-right: 10px;
+}
+
+#input-textarea{
+    margin-top: 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 body{

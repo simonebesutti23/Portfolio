@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  </head>
+  <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container container-nav">
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <h1 id="main-title">"Each project in my portfolio is a tangible example of my commitment to pushing technical boundaries and providing cutting-edge web solutions."</h1>
+                    <h1 class="main-title">"Each project in my portfolio is a tangible example of my commitment to pushing technical boundaries and providing cutting-edge web solutions."</h1>
                 </div>
             </div>
         </div>
@@ -58,7 +58,31 @@
 
     <hr id="hr" >
 
+    <!--contact-->
+    <div id="section-contact" class="hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6"></div>
+          <div class="col-lg-6 col-right-contact">
+            <h1 class="main-title">Let's get in touch</h1>
+            <p>I love to talk. Let's listen to what you have to say!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-8 col-right-contact">
+            <form action="">
+              <input class="input-space input" type="text" placeholder="Write you're name!">
+              <input class="input" type="text" placeholder="Write you're email!">
+              <textarea class="input" id="input-textarea" name="" id="" cols="30" rows="10" placeholder="Tell me you're idea!"></textarea>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js" integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="javascript/main.js"></script>
-</body>
+  </body>
 </html>

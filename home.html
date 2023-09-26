@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="home.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -33,10 +33,10 @@
                     <a class="nav-link" href="about-me.html">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Services</a>
+                    <a class="nav-link" href="services.html">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
                 </ul>
             </div>
@@ -79,12 +79,12 @@
               Cel: 3488653600</p>
           </div>
           <div class="col-lg-8 col-right-contact">
-            <form action="">
-              <input class="input-space input" type="text" placeholder="Write you're name!">
-              <input class="input" type="text" placeholder="Write you're email!">
-              <textarea class="input" id="input-textarea" name="" id="" cols="30" rows="10" placeholder="Tell me you're idea!"></textarea>
+            <form action="" id="form">
+              <input class="input-space input" type="text" placeholder="Write you're name!" name="fullName" id="fullName" required>
+              <input class="input" type="text" placeholder="Write you're email!" name="email" id="emailId" required>
+              <textarea class="input input-textarea" name="" icols="30" rows="10" placeholder="Tell me you're idea!"></textarea>
+              <button class="button-form" id="submit-btn">Send</button>
             </form>
-            <button id="button-form">Send</button>
           </div>
         </div>
         <div class="row">
@@ -104,7 +104,7 @@
                 <p> &copy; 2023</p>
               </div>
               <div class="col-lg-6 col-right-contact">
-                  <p><a class="social-link" href=""><img src="images/github(1).svg" alt=""></a> <a class="social-link" href=""><img src="images/instagram.svg" alt=""></a> <a class="social-link" href=""><img src="images/whatsapp.svg" alt=""></a></p>
+                  <p><a class="social-link" href="https://github.com/simonebesutti23/Portfolio"><img src="images/github(1).svg" alt=""></a> <a class="social-link" href="https://www.instagram.com/simonebesutti/"><img src="images/instagram.svg" alt=""></a> <a class="social-link" href="https://api.whatsapp.com/send?phone=+39 3488653600&text=Ciao, ti contatto perchè vorrei parlarti di un progetto!"><img src="images/whatsapp.svg" alt=""></a></p>
               </div>
           </div>
       </div>
@@ -113,6 +113,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js" integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="javascript/main.js"></script>
   </body>
 </html>

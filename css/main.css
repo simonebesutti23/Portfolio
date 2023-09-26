@@ -82,8 +82,9 @@ form{
     margin-right: 10px;
 }
 
-#input-textarea{
+.input-textarea{
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 input:focus,
@@ -97,8 +98,7 @@ button:focus {
     padding-left: 10px;
 }
 
-#button-form{
-    margin-top: 10px;
+.button-form{
     background-color: white;
     padding: 10px 20px;
 }
@@ -153,4 +153,43 @@ button:focus {
 .progress-bar{
     background-color: black
     ;
+}
+
+
+/*SERVICES*/
+.row-space-services{
+    margin-top: 70px;
+}
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 600px) {
+    iframe{
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #form{
+        margin-bottom: 20px;
+    }
+
+    .input-space{
+        margin: 0;
+    }
+
+    /*Portfolio*/
+    #working-progress{
+        margin-top: 50px;
+    }
+
+    #working-progress h1{
+        font-size: 40px;
+    }
+
+    /*Contact*/
+    .input-textarea{
+        width: 100%;
+    }
 }

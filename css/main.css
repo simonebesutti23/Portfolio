@@ -62,6 +62,11 @@
     text-align: right;
 }
 
+
+.strong-font{
+    font-weight: bold;
+}
+
 .col-left-contact{
     text-align: right;
     margin-top: 20px;
@@ -70,6 +75,7 @@
 form{
     margin-top: 20px;
 }
+
 
 .input{
     border-left: none;

@@ -6,7 +6,7 @@ Ciao! Benvenuti nel mio angolo del web. 🎉 Qui troverete una raccolta del mio 
 Questo portfolio è tutto su di me! Scopri chi sono, come contattarmi e dai un'occhiata ai progetti su cui ho lavorato.
 🌐 Demo Live
 
-Vuoi vedere la magia in azione? Dai un'occhiata alla versione live del mio portfolio su Netlify qui. ✨
+Vuoi vedere la magia in azione? Dai un'occhiata alla versione live del mio portfolio su Netlify qui. https://portfoliosimonebesutti.netlify.app/home ✨
 🛠️ Tecnologie Utilizzate
 
     HTML 
